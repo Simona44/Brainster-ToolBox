@@ -1,0 +1,22 @@
+.ErrorPage {
+  background-image: url("https://neilpatel.com/wp-content/uploads/2015/11/error.jpg?fbclid=IwAR1heZ49HxZKPdvYoLHjxEDyvTDWcK2DK6T9b4zah0Xi9fm83ft_jrCgaYc");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+}
+
+.error {
+  text-align: left;
+  padding-left: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+}
+
+.error-padding {
+  padding-top: 200px;
+}
+
+.er-icon {
+  color: whitesmoke;
+}

@@ -1,0 +1,58 @@
+.bg-skewed {
+  -webkit-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -8deg);
+  margin-top: -235px;
+  background-attachment: fixed;
+  padding-top: 150px;
+  background-color: white;
+}
+
+.skewed-content{
+  margin-top: 0;
+  -webkit-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 8deg);
+  background-color: white;
+  margin-bottom: 100px;
+} 
+
+.sp-img >img{
+  background-image: cover;
+  width: 100%;
+  height: 900px;
+}
+
+.purple-skewed {
+  background-color: #431781;
+  padding-top: -100px;
+  margin-top: -150px;
+  height: 600px;
+} 
+
+.infobox {
+  background-color: #ECECEC;
+}
+
+@media (max-width: 991px){
+  .infobox {
+    margin: 12px;
+    border-radius: 10px;
+  }
+
+  .purple-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: -200px;
+  }
+}
+
+.span-data {
+  color: grey;
+  font-weight: lighter;
+  padding-left: 15px;
+}
+
+.style {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

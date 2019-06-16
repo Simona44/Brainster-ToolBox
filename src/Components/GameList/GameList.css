@@ -1,0 +1,46 @@
+/* DRUG NACIN */
+
+/* .purple-skewed {
+ background-color: purple;
+ -webkit-transform: skew(0deg, -10deg);
+ transform: skew(0deg, -8deg);
+ padding: 250px 0;
+ margin-top: -235px;
+ background-attachment: fixed;
+}
+
+.skewed-content {
+ margin-top: 80px;
+ -webkit-transform: skew(0deg, 10deg);
+ transform: skew(0deg, 8deg);
+  } */
+
+.game-list {
+ background: linear-gradient(-8deg, #431781 20%,  white 20% 70%, #431781 70% );
+ padding-top: 100px;
+}
+
+.content a{
+  font-weight: bold;
+  color: #FCD232;
+  
+ }
+
+.center-div {  
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+ text-align: center;  
+}
+
+.center-footer{
+ margin-top:60px;
+ padding-bottom: 75px;
+}
+
+@media (max-width: 1200px) {
+  .brainster {
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,53 @@
+.team{
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 40px;
+  color:  #FCD232;
+  margin: 40px 0px;
+  padding-top: 100px;
+}
+
+.team-img {
+  padding: 15px;
+  border-radius: 50%;
+  height: 190px;
+  width: 190px;
+  border: 3px solid #3B1472;
+}
+
+.team-img:hover{
+  border: 3px solid  #FCD232;
+}
+
+.message {
+  margin-top: 40px;
+  background-color: #FCD232;
+}
+
+.message-content {
+  font-weight: bolder;
+  text-transform: uppercase;
+  border: 6px solid white;   
+  padding: 60px;
+  margin: 50px;
+}
+
+.position {
+  color: #3B1472;
+  font-weight: bolder;
+}
+
+@media (max-width: 1200px){
+  .first,
+  .second,
+  .third,
+  .row-team {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+  }
+
+  .row-team {
+    width: 400px;
+  }
+}

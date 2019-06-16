@@ -1,0 +1,166 @@
+.navbar {
+  border-bottom: 1px solid #3B1472;
+  background-color: #431781;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: black;
+  transition: color 0.2s;
+  font-size: 18px;
+  font-weight: bolder;
+  list-style-type: none;
+}
+
+.bm-item:hover {
+  color: #FCD232;
+  text-decoration: none;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 40px;
+  height: 30px;
+  left: 30px;
+  top: 21px;
+}
+
+.bm-burger-bars {
+  background:#FCD232;
+}
+
+.bm-cross-button {
+  height: 28px;
+  width: 28px;  
+}
+
+.bm-cross {
+  background:black;
+}
+
+.bm-menu {
+  background: white;
+  padding: 0.5em 0em 0em 1.5em;
+  font-size: 1.15em;
+}
+
+.bm-item-list {
+  height: 50% !important;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand > img {
+  height: 30px;
+  width: 120px;
+  margin-left: 160px;
+}
+
+/* HEADER-RIGHT */
+.header-right {
+  text-align: right;
+}
+
+@media (max-width: 1200px){
+  .header-right{
+    text-align: center;
+  }
+  .yellow-btn{
+    display: inline-block;
+  }
+  .dark-btn{
+    display: inline-block;
+  }
+
+}
+
+.header-left {
+  padding-left: 0;
+  float: left;
+}
+
+.burger-text {
+  color: #FCD232;
+  display: flex;
+  font-weight: bold;
+  height: 64px;
+  padding-left: 85px;
+  width: 130px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.burger-logo {
+  height: 30px;
+  margin-left: 0px;
+}
+
+.yellow-btn {
+  margin-bottom: 10px;
+  background-color:#FCD232;
+  color: black;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.yellow-btn:hover{
+  background-color: #FCD232;
+  color: #431781;
+}
+
+.dark-btn {
+  margin-bottom: 10px;
+  background-color: black;
+  color: #FCD232;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.dark-btn:hover{
+  background-color: black;
+  color: #431781;
+}
+
+.img-custom-prop {
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+.logo-holder {
+  margin: 0;
+  padding: 10px;
+}
+
+/* HEADER-CENTER */
+.header-center {
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 1200px){
+  .row-header .header-left:nth-of-type(1),
+  .row-header .logo-holder:nth-of-type(2) {
+      height: 50%;
+      width: 50%;
+  }
+  .row-header .header-right:nth-of-type(3) {
+      height: 50%;
+      width: 100%;
+  }
+}
